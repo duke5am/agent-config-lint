@@ -1,0 +1,22 @@
+---
+description: TypeScript and React conventions for the API package
+globs: **/*.{ts,tsx}
+alwaysApply: false
+---
+
+# TypeScript
+
+## Types
+
+- Annotate every exported function's parameters and return type.
+- Do not use the `any` type. Use `unknown` and narrow it at the boundary.
+
+## Errors
+
+- Throw `HttpError` from `src/errors.ts`; never throw a bare string.
+- Return a result object from `src/api/client.ts` instead of throwing for a
+  4xx response.
+
+## Formatting
+
+- Use two-space indentation and a semicolon at the end of every statement.

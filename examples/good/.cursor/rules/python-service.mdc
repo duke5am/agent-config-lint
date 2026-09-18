@@ -1,0 +1,17 @@
+---
+description: Conventions for the Python scheduler service
+globs: **/*.py
+alwaysApply: false
+---
+
+# Python service
+
+## Style
+
+- Format with `black` and lint with `ruff` before you commit.
+- Keep every function under twenty lines, or split it.
+
+## Tests
+
+- Every function in `src/services/` needs a test in `tests/`.
+- Name the test after the behaviour, not the function: `test_rejects_expired_token`.

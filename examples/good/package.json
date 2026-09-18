@@ -1,0 +1,10 @@
+{
+  "name": "checkout-service",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "test": "node ./scripts/test.mjs",
+    "lint": "node ./scripts/lint.mjs",
+    "lint:fix": "node ./scripts/lint.mjs --fix"
+  }
+}

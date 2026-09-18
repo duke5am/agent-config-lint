@@ -1,0 +1,16 @@
+---
+description: Python rules for the scheduler
+globs: **/*.py
+alwaysApply: true
+---
+
+# Python
+
+## Style
+
+- Format with `black`; do not argue about formatting in a review.
+- Keep every function under twenty lines.
+
+## Tests
+
+- Every module in `src/services/` needs a test in `tests/`.

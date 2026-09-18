@@ -1,0 +1,10 @@
+---
+description: Broken on purpose
+globs: [**/*.ts, **/*.tsx
+alwaysApply: yes
+---
+
+# Broken frontmatter
+
+- This file exists so that the malformed-frontmatter rule has something to
+  point at: the `globs` list above is never closed.

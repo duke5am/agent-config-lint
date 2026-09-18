@@ -1,0 +1,13 @@
+---
+description: Everything, for every file
+globs: "**/*"
+alwaysApply: true
+---
+
+# House style
+
+- Use four-space indentation in every TypeScript file.
+- Never use tabs in this file.
+- Never use semicolons.
+- Sort imports alphabetically within each group.
+- Snapshot tests are forbidden because nobody reviews the snapshots.

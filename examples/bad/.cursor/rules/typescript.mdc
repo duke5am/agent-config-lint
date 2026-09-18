@@ -1,0 +1,27 @@
+---
+globs: **/*.{ts,tsx}
+alwaysApply: true
+colours: blue
+---
+
+# TypeScript
+
+## Indentation
+
+- Use two-space indentation in every TypeScript file.
+- Use tabs in this file.
+- Do not use tabs for indentation in this package.
+
+## Punctuation
+
+- Always use semicolons.
+
+## Types
+
+- Forbid the `any` type in this package.
+- Use the `any` type in this package.
+
+## Tests
+
+- Run `npm test` before you open a pull request.
+- Run `npm test` before you open a pull request yourself.
