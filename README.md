@@ -593,5 +593,6 @@ SOFTWARE.
 
 If you want the rules themselves rather than a linter for them — the scoped
 `.cursor/rules/*.mdc` set and the `CLAUDE.md` / `AGENTS.md` pair this tool is
-built to keep honest — they are packaged as
+built to keep honest — they are sold as two packs:
+
 → **[Production Rules Pack for Cursor](https://duke5am.gumroad.com/l/01-cursor-rules-pack)** — $19 on Gumroad, **[Claude Code Config Pack](https://duke5am.gumroad.com/l/02-claude-code-config-pack)** — $19 on Gumroad <!-- GUMROAD-LINK -->
